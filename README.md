@@ -8,6 +8,7 @@ Jakub Żmujdzin
 - responsible for classification data cleaning and regression model creation
 
 Pycaret regression output:
+```
 >>> compare_models(include=['lr', 'lasso', 'ridge', 'en', 'knn', 'dt', 'rf', 'ada', 'xgboost', 'dummy'])
                              Model       MAE          MSE      RMSE      R2                                                                                                                                                                                                                             
 xgboost  Extreme Gradient Boosting  407.1482  297011.6268  544.9873  0.1394   
@@ -20,3 +21,4 @@ dummy              Dummy Regressor  434.4514  345103.7087  587.4551 -0.0000
 knn          K Neighbors Regressor  452.8505  361581.8425  601.3164 -0.0478   
 ada             AdaBoost Regressor  516.1185  421239.3004  648.7199 -0.2206   
 dt         Decision Tree Regressor  602.3232  630139.8300  793.8123 -0.8260   
+```
